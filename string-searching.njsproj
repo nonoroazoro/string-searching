@@ -17,8 +17,10 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Content Include=".travis.yml" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="test\mocha.opts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lib\" />

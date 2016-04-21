@@ -1,1 +1,1 @@
-﻿
+﻿const ss = require("./");
