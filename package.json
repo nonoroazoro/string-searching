@@ -2,7 +2,7 @@
   "name": "string-searching",
   "version": "0.0.0",
   "description": "String searching algorithms.",
-  "main": "app.js",
+  "main": "index.js",
   "author": {
     "name": "nonoroazoro",
     "email": "xiaochao.k@gmail.com"
