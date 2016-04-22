@@ -3,11 +3,11 @@ const should = require("should");
 
 const stringSearching = require("../../");
 
-describe("lib/index", function ()
+describe("lib/index", () =>
 {
-    describe("1.boyer-moor", function ()
+    describe("1.boyer-moor", () =>
     {
-        it("should not find string ", function (done)
+        it("should not find string ", (done) =>
         {
             const nullString = null;
             const arrayString = [1, 2];
@@ -25,7 +25,7 @@ describe("lib/index", function ()
         const targetIndex1 = 17;
         const pattern1 = "EXAMPLE";
         const text1 = "HERE IS A SIMPLE EXAMPLE";
-        it("should find string \"" + pattern1 + " in \"" + text1 + "\" \n\t and the index is " + targetIndex1, function (done)
+        it(`should find string "${pattern1}" in "${text1}" \n\t and the index is ${targetIndex1}`, (done) =>
         {
             stringSearching.boyer_moore(text1, pattern1).should.equal(targetIndex1);
             done();
@@ -34,7 +34,7 @@ describe("lib/index", function ()
         const targetIndex2 = [13, 21];
         const pattern2 = "PLE";
         const text2 = "HERE IS A SIMPLE EXAMPLE";
-        it("should find string \"" + pattern2 + " in \"" + text2 + "\" \n\t and the index is " + targetIndex2, function (done)
+        it(`should find string "${pattern2}" in "${text2}" \n\t and the index is ${targetIndex2}`, (done) =>
         {
             stringSearching.boyer_moore(text2, pattern2, true).should.deepEqual(targetIndex2);
             done();
