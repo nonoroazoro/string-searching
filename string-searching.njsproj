@@ -22,6 +22,7 @@
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="test\mocha.opts" />
+    <Content Include="test\performance.test.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lib\" />
@@ -31,6 +32,7 @@
   <ItemGroup>
     <Compile Include="index.js" />
     <Compile Include="lib\index.js" />
+    <Compile Include="test\performance.test.js" />
     <Compile Include="test\lib\index.test.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
