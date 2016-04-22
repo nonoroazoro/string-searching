@@ -1,6 +1,6 @@
 {
   "name": "string-searching",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "String searching algorithms.",
   "main": "index.js",
   "author": {
@@ -11,8 +11,12 @@
     "type": "git",
     "url": "https://github.com/nonoroazoro/string-searching"
   },
+  "keywords": [
+    "boyer-moore",
+    "string-searching",
+    "algorithm"
+  ],
   "scripts": {
-    "start": "node ./app",
     "test": "mocha"
   },
   "devDependencies": {
