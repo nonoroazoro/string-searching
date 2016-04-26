@@ -1,6 +1,6 @@
 {
   "name": "string-searching",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Fast string searching algorithms.",
   "main": "index.js",
   "author": {
