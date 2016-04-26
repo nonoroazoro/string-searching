@@ -1,4 +1,4 @@
-# string-searching [![Build Status](https://travis-ci.org/nonoroazoro/string-searching.svg?branch=master)](https://travis-ci.org/nonoroazoro/string-searching)
+# string-searching [![NPM Verison](https://img.shields.io/npm/v/string-searching.svg)](https://www.npmjs.com/package/string-searching) [![Build Status](https://travis-ci.org/nonoroazoro/string-searching.svg?branch=master)](https://travis-ci.org/nonoroazoro/string-searching)
 
 ### Features:
 Fast string searching algorithms, including:
