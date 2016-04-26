@@ -3,7 +3,7 @@ const should = require("should");
 
 const stringSearching = require("../../lib");
 
-describe.only("lib/index", () =>
+describe("lib/index", () =>
 {
     describe("1.boyer-moor", () =>
     {
