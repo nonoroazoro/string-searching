@@ -12,18 +12,18 @@ $ npm install --save string-searching
 
 ### Syntax
 ```js
-stringSearching.boyer_moore(text, pattern[, recursive])
+.boyer_moore(text, pattern[, recursive])
 ```
 
 ### Example:
 ```js
-const stringSearching = require("string-searching");
+const ss = require("string-searching");
 const text = "HERE IS A SIMPLE EXAMPLE";
 const pattern = "EXAMPLE";
 
 // search first index of pattern (like the String.prototype.indexOf() do).
-const index = stringSearching.boyer_moore(text, pattern);
+const index = ss.boyer_moore(text, pattern);
 
 // or passing true to search all patterns.
-const indexes = stringSearching.boyer_moore(text, pattern, true);
+const indexes = ss.boyer_moore(text, pattern, true);
 ```
