@@ -1,7 +1,7 @@
 {
   "name": "string-searching",
-  "version": "0.1.1",
-  "description": "String searching algorithms.",
+  "version": "0.1.2",
+  "description": "Fast string searching algorithms.",
   "main": "index.js",
   "author": {
     "name": "nonoroazoro",
