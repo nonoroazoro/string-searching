@@ -4,10 +4,10 @@ const should = require("should");
 const stringSearching = require("../");
 const text = require("./performance.test.json").content;
 
-describe.only("performance-test", () =>
+describe("performance-test", () =>
 {
-    const pattern = "工艺";
-    const targetIndex = 5790;
+    const pattern = "自己";
+    const targetIndex = text.indexOf(pattern);
 
     it("should finish performance-test with: boyer_moore", (done) =>
     {
