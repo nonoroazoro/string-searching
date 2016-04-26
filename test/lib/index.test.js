@@ -1,15 +1,16 @@
 ﻿const mocha = require("mocha");
 const should = require("should");
 
-const stringSearching = require("../../");
+const stringSearching = require("../../lib");
 
-describe("lib/index", () =>
+describe.only("lib/index", () =>
 {
     describe("1.boyer-moor", () =>
     {
         it("should not find string ", (done) =>
         {
             const nullString = null;
+            const emptyString = "";
             const arrayString = [1, 2];
             const okString = "example";
 
@@ -19,6 +20,8 @@ describe("lib/index", () =>
             stringSearching.boyer_moore(arrayString, okString).should.equal(-1);
             stringSearching.boyer_moore(okString, nullString).should.equal(-1);
             stringSearching.boyer_moore(okString, arrayString).should.equal(-1);
+            stringSearching.boyer_moore(okString, emptyString).should.equal(-1);
+            stringSearching.boyer_moore(emptyString, okString).should.equal(-1);
             done();
         });
 
