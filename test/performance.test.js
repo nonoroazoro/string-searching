@@ -1,7 +1,7 @@
 ﻿const mocha = require("mocha");
 const should = require("should");
 
-const stringSearching = require("../");
+const stringSearching = require("../lib");
 const text = require("./performance.test.json").content;
 
 describe("performance-test", () =>
