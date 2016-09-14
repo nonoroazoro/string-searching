@@ -11,23 +11,23 @@
     "type": "git",
     "url": "https://github.com/nonoroazoro/string-searching"
   },
-    "keywords":
-    [
-        "search",
-        "text search",
-        "text-search",
-        "string search",
-        "string-search",
-        "string searching",
-        "string-searching",
-        "boyer moore",
-        "boyer-moore",
-        "algorithm"
-    ],
+  "keywords": [
+    "search",
+    "text search",
+    "text-search",
+    "string search",
+    "string-search",
+    "string searching",
+    "string-searching",
+    "boyer moore",
+    "boyer-moore",
+    "algorithm"
+  ],
   "scripts": {
     "test": "mocha"
   },
   "devDependencies": {
+    "eslint-config-zoro": "^1.1.4",
     "mocha": "^2.4.5",
     "should": "^8.3.1"
   }
